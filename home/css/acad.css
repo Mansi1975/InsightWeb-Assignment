@@ -1,0 +1,189 @@
+body{
+  background-color: rgb(232, 239, 237);
+}
+
+.main{
+    background-color: rgb(232, 239, 237);
+}
+
+.hed{
+    margin-top: 10px;
+    text-align: center;
+  
+}
+.contents{
+    margin:4px;
+}
+.qanda{
+   margin: 40px;
+    text-align: center;
+    
+}
+.opts {
+  
+    display: flex;
+  flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+   
+  }
+  
+  
+
+
+  .dept-btn {
+    padding: 10px 15px;
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .dept-btn:hover {
+    background-color: #0077b6;
+  }
+  
+  .dept-btn.selected {
+    background-color: #10649b;
+  }
+  
+  .reset-btn {
+    background-color: #EF3A3A;
+  }
+  
+  .reset-btn:hover {
+    background-color: #cc2f2f;
+  }
+  
+
+  #bigheads {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .respondents {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .legend-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    gap: 0.4rem;
+  }
+  
+  .legend-color {
+    width: 25px;
+    height: 10px;
+    border-radius: 2px;
+  }
+  
+  canvas {
+    max-width: 450px;
+    margin: auto;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0077b6;
+  }
+  
+  button:last-child {
+    background-color: #e63946;
+  }
+
+  @media (max-width: 500px) {
+
+    .container{
+      display: flex;
+      flex-direction: row;
+    }
+    .qanda {
+      margin: 20px 10px;
+    }
+  
+    .dept-btn {
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      width: 100%;
+      max-width: 140px;
+    }
+  
+    .reset-btn {
+      width: 100%;
+      max-width: 140px;
+    }
+  
+    canvas {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+  
+    .legend-box {
+      gap: 0.5rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      gap: 10px;
+      
+      align-items: center;
+    }
+  
+    button {
+      width: 100%;
+      max-width: 200px;
+      
+    }
+  
+    .contents {
+      margin: 10px;
+    }
+  
+    #bigheads {
+      font-size: 1.3rem;
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+
+  footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }

@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to right, #f0f2f5, #dc91ef);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h2{
+    color: #7d11ab;
+  }
+  .form-card {
+    border-radius: 16px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-weight: 600;
+  }
+  
+  .form-control:focus {
+    border-color: #af49ea;
+    box-shadow: 0 0 0 0.2rem rgba(93, 3, 99, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #7d11ab;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .btn-primary:hover {
+    background-color: #da8ff3;
+  }
+
+  .row-mb3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-heading {
+    color:#7d11ab; /* or any hex/RGB name like 'red', 'white', etc. */
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #711d88;
+    cursor: pointer;
+  }
+  
