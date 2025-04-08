@@ -31,7 +31,9 @@ background-color: rgb(158, 79, 231);
 @media(max-width:529px){
   
   .hero{
+    display: flex;
     flex-direction: column;
+    align-items: center;
     height: auto;
     padding: 40px 20px;
   }
